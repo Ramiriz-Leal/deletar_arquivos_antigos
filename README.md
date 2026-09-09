@@ -1,13 +1,14 @@
-# Deletar arquivos antigos de diretorios compartilhados
+# Delete old files from shared directories
 
-Util para deletar backups antigos, ou até mesmo copias antigas dos arquivos  
-## Como funicona?
+Useful for removing old backups, or even outdated copies of files
 
-Esse projeto se dita ser mais utilizado em empresas que fazem backups de bancos de dados, servidores, com arquivos diferenciais onde os antigos passam a ser "inuteis"
+## How does it work?
 
-Ele busca os arquivos no diretorio compartilhado, e apaga os mesmos de acordo com os dias colocados a mão no código, salvando também quais arquivos foram deletados no log.
-O mesmo só apaga os arquivos no diretorio listado, e não nos seus subdiretorios
-## Autores
+This project is meant for companies that keep backups of databases and servers, with differential files where the older ones become useless.
+
+It looks for files in the shared directory and deletes them according to the number of days set in the code, also saving to a log which files were deleted. It only deletes files in the listed directory, not in its subdirectories.
+
+## Author
 
 - [GitHub](https://github.com/Ramiriz-Leal?tab=repositories)
 - [Linkedin](https://www.linkedin.com/in/ramiriz-leal/)
